@@ -98,7 +98,7 @@ header .menu nav a:hover {
 }
 
 #welcome {
-  background-image: url(/assets/headerbg.jpg);
+  background-image: url(assets/headerbg.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -111,13 +111,13 @@ header .menu nav a:hover {
 #welcome .box .textbox h1 {
   margin-bottom: 20px;
   color: white;
-  font-size: 35px;
+  font-size: 40px;
   font-style: italic;
 }
 #welcome .box .textbox h2 {
-  margin: 0 0 30px 0;
+  margin-bottom: 50px;
   color: white;
-  font-size: 70px;
+  font-size: 90px;
   font-weight: bold;
 }
 #welcome .box .btn {
@@ -126,17 +126,17 @@ header .menu nav a:hover {
   background-color: rgb(255, 200, 0);
 }
 #welcome .box .btn h5 {
-  font-size: 22px;
+  font-size: 25px;
   cursor: pointer;
   color: white;
   font-weight: bold;
 }
 @media screen and (max-width: 576px) {
   #welcome .box .textbox h1 {
-    font-size: 25px;
+    font-size: 35px;
   }
   #welcome .box .textbox h2 {
-    font-size: 50px;
+    font-size: 70px;
   }
 }
 
@@ -421,46 +421,47 @@ header .menu nav a:hover {
   }
 }
 
-#our {
+#team {
   background-color: rgba(192, 192, 192, 0.1254901961);
 }
-#our .textbox h1 {
+#team .textbox h1 {
+  margin-top: 60px;
   font-size: 40px;
 }
-#our .textbox h3 {
+#team .textbox h3 {
   font-size: 17px;
   margin-bottom: 40px;
   font-style: italic;
 }
-#our .textbox h1, #our .textbox h2 {
+#team .textbox h1, #team .textbox h2 {
   font-weight: 700;
 }
-#our .textbox h1, #our .textbox h2 {
+#team .textbox h1, #team .textbox h2 {
   line-height: 2;
 }
-#our .textbox p, #our .textbox h3, #our .textbox h4 {
+#team .textbox p, #team .textbox h3, #team .textbox h4 {
   color: rgb(115, 124, 131);
 }
-#our .box .imgbox {
+#team .box .imgbox {
   width: 220px;
   border-radius: 50%;
   border: 8px solid rgba(135, 129, 129, 0.1921568627);
 }
-#our .box .textbox {
+#team .box .textbox {
   text-align: center;
   margin: 15px 0;
 }
-#our .box .textbox h2 {
+#team .box .textbox h2 {
   font-size: 25px;
 }
-#our .box .textbox h4 {
+#team .box .textbox h4 {
   font-size: 16px;
 }
-#our .box ul {
+#team .box ul {
   display: flex;
   justify-content: center;
 }
-#our .box ul li .icon {
+#team .box ul li .icon {
   font-size: 13px;
   width: 25px;
   height: 25px;
@@ -477,11 +478,11 @@ header .menu nav a:hover {
   margin: 0 12px;
   border-radius: 22px;
 }
-#our .box ul li .icon:hover {
+#team .box ul li .icon:hover {
   background-color: #424649;
   transition: 0.5s;
 }
-#our .textbox p {
+#team .textbox p {
   font-size: 16px;
   line-height: 1.5;
   margin-left: 200px;
@@ -490,23 +491,23 @@ header .menu nav a:hover {
   margin-top: 50px;
 }
 @media screen and (max-width: 576px) {
-  #our .textbox p {
+  #team .textbox p {
     margin: 15px;
     padding: 0;
     font-size: 21px;
   }
 }
 @media screen and (max-width: 768px) {
-  #our .textbox h3 {
+  #team .textbox h3 {
     font-size: 12px;
   }
-  #our .textbox p {
+  #team .textbox p {
     margin-top: 40px;
     font-size: 12px;
     line-height: 1.2;
     padding: 0;
   }
-  #our .box ul li .icon {
+  #team .box ul li .icon {
     font-size: 17px;
     width: 30px;
     height: 30px;
@@ -514,7 +515,7 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 992px) {
-  #our .textbox p {
+  #team .textbox p {
     line-height: 1;
     font-size: 13px;
   }
