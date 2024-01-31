@@ -21,7 +21,7 @@ header .menu {
   align-items: center;
   padding: 10px 0;
   height: 70px;
-  background-color: rgb(33, 37, 41);
+  background-color: #212529;
   position: fixed;
   right: 0;
   left: 0;
@@ -55,11 +55,10 @@ header .menu nav {
 header .menu nav a {
   font-size: 19px;
   margin: 0 20px;
-  color: rgb(246, 246, 246);
   cursor: pointer;
 }
 header .menu nav a:hover {
-  color: rgb(255, 200, 0);
+  color: #ffcb11;
 }
 @media screen and (max-width: 576px) {
   header .menu {
