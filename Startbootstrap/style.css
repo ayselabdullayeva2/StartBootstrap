@@ -288,43 +288,45 @@ header .menu nav a:hover {
   margin-bottom: 55px;
 }
 #about .text-center h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 2;
 }
 #about .text-center h3 {
+  font-size: 20px;
   font-style: italic;
-  color: rgb(115, 124, 131);
+  color: #838489;
 }
 #about .box {
   display: flex;
   align-items: center;
-  margin: 0 0 100px 100px;
+  margin: 0 0 100px 50px;
 }
 #about .box .textbox {
-  width: 400px;
-  margin: 0 20px;
+  width: 340px;
+  margin: 0 30px;
   text-align: end;
 }
 #about .box .textbox h2, #about .box .textbox h4 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 1.3;
 }
 #about .box .textbox p {
+  margin-top: 10px;
   font-size: 19px;
   color: #828080;
   line-height: 1.4;
 }
 #about .box .imgbox {
-  width: 140px;
-  border: 8px solid rgba(172, 173, 175, 0.0862745098);
+  width: 180px;
+  border: 8px solid #e9ecef;
   border-radius: 50%;
 }
 #about .right {
   display: flex;
   justify-content: flex-end;
-  margin: 0 100px 100px 0;
+  margin: 0 90px 100px 0;
 }
 #about .right .textbox {
   text-align: start;
@@ -336,29 +338,49 @@ header .menu nav a:hover {
 #about .yellow .story {
   display: flex;
   justify-content: center;
+  margin-right: 30px;
 }
 #about .yellow .story .minibox {
-  width: 140px;
-  height: 140px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
-  border: 8px solid rgba(172, 173, 175, 0.0862745098);
+  border: 8px solid #e9ecef;
   background-color: rgb(255, 200, 0);
   text-align: center;
   padding: 0 40px;
 }
 #about .yellow .story .minibox h2 {
   color: white;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1.2;
 }
 @media screen and (max-width: 992px) {
+  #about .right .textbox h4 {
+    font-size: 28px;
+  }
+  #about .yellow .story .minibox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+  }
+  #about .yellow .story .minibox h2 {
+    font-size: 15px;
+  }
   #about .box {
     margin: 0 0 100px 0;
     align-items: flex-start;
   }
   #about .box .textbox {
-    width: 190px;
+    width: 230px;
+  }
+  #about .box .textbox h2, #about .box .textbox h4 {
+    font-size: 28px;
+  }
+  #about .box .imgbox {
+    width: 110px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -378,7 +400,8 @@ header .menu nav a:hover {
     text-align: start;
   }
   #about .box .imgbox {
-    width: 140px;
+    border: 6px solid #e9ecef;
+    width: 80px;
     height: auto;
     margin: 0;
   }
@@ -392,12 +415,14 @@ header .menu nav a:hover {
   #about .yellow {
     justify-content: flex-start;
   }
-  #about .yellow .story {
-    width: 140px;
-    height: 140px;
-  }
   #about .yellow .story .minibox {
-    padding: 0 30px;
+    border: 6px solid #e9ecef;
+    width: 80px;
+    height: 80px;
+    padding: 0 20px;
+  }
+  #about .yellow .story .minibox h2 {
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -408,7 +433,8 @@ header .menu nav a:hover {
     font-size: 18px;
   }
   #about .box .imgbox {
-    width: 140px;
+    border: 6px solid #e9ecef;
+    width: 80px;
     height: auto;
   }
   #about .box .textbox h2, #about .box .textbox h4 {
@@ -425,7 +451,7 @@ header .menu nav a:hover {
     padding: 0 15px;
   }
   #about .yellow .story .minibox h2 {
-    font-size: 18px;
+    font-size: 10px;
   }
 }
 
