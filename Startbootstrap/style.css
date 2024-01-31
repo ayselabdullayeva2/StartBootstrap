@@ -363,11 +363,12 @@ header .menu nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
     width: 100px;
     height: 100px;
   }
   #about .yellow .story .minibox h2 {
-    font-size: 15px;
+    font-size: 13px;
   }
   #about .box {
     margin: 0 0 100px 0;
@@ -461,6 +462,7 @@ header .menu nav a:hover {
 #team .textbox h1 {
   margin-top: 60px;
   font-size: 50px;
+  line-height: 2;
 }
 #team .textbox h3 {
   font-size: 20px;
@@ -470,8 +472,8 @@ header .menu nav a:hover {
 #team .textbox h1, #team .textbox h2 {
   font-weight: 700;
 }
-#team .textbox h1, #team .textbox h2 {
-  line-height: 2;
+#team .textbox h2 {
+  line-height: 1.5;
 }
 #team .textbox p, #team .textbox h3, #team .textbox h4 {
   color: rgb(115, 124, 131);
@@ -515,7 +517,7 @@ header .menu nav a:hover {
   transition: 0.5s;
 }
 #team .textbox p {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 1.5;
   margin-left: 200px;
   margin-right: 200px;
